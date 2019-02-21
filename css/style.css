@@ -1,0 +1,84 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	outline: none;
+}
+body {
+  width: 100%;
+    background: url('https://thumbor.forbes.com/thumbor/1280x868/https%3A%2F%2Fblogs-images.forbes.com%2Fannabel%2Ffiles%2F2018%2F02%2FLouisville_Skyline-1200x801.jpg') center center no-repeat;
+  background-size: cover;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.card {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	width: 1200px;
+	height: 650px;
+    margin: 0 auto;
+    margin-top: 50px;
+    background-color: rgba(256,256,256, .3);
+    border-radius: 8px;
+}
+.card .card-input {
+	width: 40%;
+	height: 450px;
+	padding-top: 50px;
+  padding-left: 75px;
+  padding-right: 75px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 10px 10px 25px rgba(0,0,0,.2);
+	text-align: center;
+}
+.card .card-input input {
+	display: block;
+    height: 40px;
+    width: 330px;
+	font-size: 18px;
+    padding: 0 10px;
+    border: 1px solid rgba(0,0,0,.3);
+    border-radius: 4px;
+    box-shadow: 10px 10px 20px rgba(0,0,0,.2);
+}
+.card .card-input label {
+	  display: block;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    font-size: 22px;
+    text-align: left;
+}
+.card .card-input .card-input__header{
+    margin-bottom: 30px;
+    font-size: 30px;
+}
+.card .card-descr {
+	width: 40%;
+	height: 450px;
+	padding: 50px 20px 0 75px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 10px 10px 25px rgba(0,0,0,.2);
+    overflow: hidden;
+}
+.card .card-descr div {
+	display: block;
+	text-align: left;
+	margin-bottom: 30px;
+	font-size: 24px;
+}
+.card .card-descr div:first-child {
+  text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
